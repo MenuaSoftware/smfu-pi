@@ -1,5 +1,13 @@
+pymongo[srv]
 flask
 flask-restful
 webargs
 pymongo
 python-dotenv
+numpy
+fitz
+pyzbar
+opencv-python
+PyMuPDF
+
+
