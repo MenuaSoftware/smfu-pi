@@ -22,7 +22,6 @@ class Label(Resource):
         date = datetime.datetime.now()
         dict = {"labeled_json": data, "labeled_date": date}
         _id = labeled.insert_one(dict).inserted_id
-        print(_id)
 
         Label.labels = []
         Label.labels = getBarcode(data,_id)

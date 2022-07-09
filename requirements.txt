@@ -1,4 +1,3 @@
-PyMuPDF
 flask
 flask-restful
 webargs
@@ -6,8 +5,11 @@ pymongo
 pymongo[srv]
 python-dotenv
 numpy
-fitz
 pyzbar
 opencv-python
+frontend
+fitz
+PyMuPDF
+
 
 
